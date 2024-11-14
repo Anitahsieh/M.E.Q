@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="estilo.css">
+        <!-- JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" href="img/mapaQR.png" type="image/x-icon">
+        <link rel="stylesheet" href="codigo.js">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Link--->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Mapa Estudiante QR</title>
+</head>
+
+<body>
+    <!----Navbar---->
+     <table>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #5e91b8;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="inicio.html">
+                    <img src="img/Mapa_QR.jpg" alt="" height="50" width="50">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Mapa.html">Mapa</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicio</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="estudiante.html"><span class="material-symbols-outlined">
+                            forum</span>Foro de Estudiante</a></li>
+                            <li><a class="dropdown-item"  href="contacto.html"><span class="material-symbols-outlined">
+                              mail</span> Contacto</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="ajuste.html"><span class="material-symbols-outlined">
+                            settings</span> Ajuste</a></li> 
+                        </ul>
+                      </li>
+                     </ul> 
+                     
+                     <form class="d-flex" role="search">
+                       <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Buscar</button>
+                      <a href="escritor.html"class="btn btn-outline-secondary"><img src="img/edit_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"  height="25" width="25"> </a>
+                      <a href="acceder.html"class="btn btn-outline-secondary"><img src="img/account_circle_FILL0_wght400_GRAD0_opsz24.png" height="30" width="15"> </a>
+                      </form>
+                  </div>
+                </div>
+              </nav>
+     </table>   
+
+     <!----a---->
+     <section class="contenet">
+      <div class="left-content">
+        <div class="activities">
+          <h1>Informacion Escolar</h1>
+          <div class="activity-container">
+            <div class="image-container img-one">
+              <img src="img/Recuperatorio.jpg" alt="1" />
+              <div class="overlay">
+                <a href="recuperatorio.html"><h3>Recuperatorio</h3></a>
+              </div>
+            </div>
+
+            <div class="image-container img-two">
+              <img src="img/Aula digital.jpg" alt="2" />
+              <div class="overlay">
+                <a href="aula.d.html"><h3>Aula Digital</h3></a>
+              </div>
+            </div>
+
+            <div class="image-container img-three">
+              <img src="img/mapaescolar.avif" alt="3" />
+              <div class="overlay">
+                <a href="Mapa.html"><h3>Mapa Escolar</h3></a>
+              </div>
+            </div>
+
+            <div class="image-container img-four">
+              <img src="img/electricidad.jpg" alt="4" />
+              <div class="overlay">
+                <a href="electricidad.html"><h3>Electricidad</h3></a>
+              </div>
+            </div>
+
+            <div class="image-container img-five">
+              <img src="img/mecanica.png" alt="5" />
+              <div class="overlay">
+                <a href="mecanica.html"><h3>Mecanica</h3></a>
+              </div>
+            </div>
+
+            <div class="image-container img-six">
+              <img src="img/icono-inicio-computacion.DC_.svg" alt="6" />
+              <div class="overlay">
+                <a href="computacion.html"><h3>Computacion</h3></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="left-bottom">
+          <div class="weekly-schedule">
+            <h1>Noticia Escolar</h1>
+            <div class="calendar">
+              <div class="day-and-activity activity-one">
+                <div class="day">
+                  <h1>20</h1>
+                  <p>MAYO</p>
+                </div>
+                <div class="activity">
+                  <h2>Mesas de Ecxamen</h2>
+                  <div class="participants">
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/c61daa1c-5881-43f8-a50f-62be3d235daf" style="--i: 1" alt="" />
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/90affa88-8da0-40c8-abe7-f77ea355a9de" style="--i: 2" alt="" />
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/07d4fa6f-6559-4874-b912-3968fdfe4e5e" style="--i: 3" alt="" />
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e082b965-bb88-4192-bce6-0eb8b0bf8e68" style="--i: 4" alt="" />
+                  </div>
+                </div>
+                <button class="btn">Ver</button>
+              </div>
+
+              <div class="day-and-activity activity-two">
+                <div class="day">
+                  <h1>30</h1>
+                  <p>Julio</p>
+                </div>
+                <div class="activity">
+                  <h2>Ciere de Trimetral</h2>
+                  <div class="participants">
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/c61daa1c-5881-43f8-a50f-62be3d235daf" style="--i: 1" alt="" />
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/32037044-f076-433a-8a6e-9b80842f29c9" style="--i: 2" alt="" />
+                  </div>
+                </div>
+                <button class="btn">Ver</button>
+              </div>
+
+              <div class="day-and-activity activity-three">
+                <div class="day">
+                  <h1>17</h1>
+                  <p>Junio</p>
+                </div>
+                <div class="activity">
+                  <h2>Evaluacion</h2>
+                  <div class="participants">
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/32037044-f076-433a-8a6e-9b80842f29c9" style="--i: 1" alt="" />
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e082b965-bb88-4192-bce6-0eb8b0bf8e68" style="--i: 2" alt="" />
+                    <img src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/c61daa1c-5881-43f8-a50f-62be3d235daf" style="--i: 3" alt="" />
+                  </div>
+                </div>
+                <button class="btn">Ver</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="personal-bests">
+            <h1>Aprender Programar</h1>
+            <div class="personal-bests-container">
+              <div class="best-item box-one">
+                <h5><p>App Móviles</p></h5>
+                <center><img src="img/app_movil-removebg-preview.png" alt=""  height="150" width="100"/></center>
+              </div>
+              <div class="best-item box-two">
+                <center><img src="img/html.png" alt="" height="90" width="60"/></center>
+                <h5><p>Desarollo de Web</p></h5>
+              </div>
+              <div class="best-item box-three">
+                <center><img src="img/Videojocs-removebg-preview.png" alt="" height="90" width="60"/></center>
+                <h5><p>Video Juego</p></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right-content">
+        <div class="user-info">
+          <div class="icon-container">
+          </div>
+        </div>
+        <div class="active-calories">
+          <h1 style="align-self: flex-start">Asistencias y Inasistencias</h1>
+          <div class="active-calories-container">
+            <div class="box" style="--i: 85%">
+              <div class="circle">
+                <h2>85<small>%</small></h2>
+              </div>
+            </div>
+            <div class="calories-content">
+              <p><span>Total:</span> 100%</p>
+              <p><span>Asistencia:</span> 85%</p>
+              <p><span>Falta:</span> 15%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="friends-activity">
+          <h1>Noticia Especial</h1>
+          <div class="card-container">
+            <div class="card">
+              <div class="card-user-info">
+                <img src="img/account_circle_FILL0_wght400_GRAD0_opsz24.png" alt="" />
+                <h2>Noticia sobre Acto</h2>
+              </div>
+              <img class="card-img" src="img/25.jpg" alt="" />
+              <p>El 24 de Mayo habra acto para comemoral el 25 de Mayo🎉</p>
+            </div>
+
+            <div class="card card-two">
+              <div class="card-user-info">
+                <img src="img/account_circle_FILL0_wght400_GRAD0_opsz24.png" alt="" />
+                <h2>Concurso Literatura</h2>
+              </div>
+              <img class="card-img" src="img/cuento.jpg" alt="" />
+              <p>El concurso cierra en 07/06!💪</p>
+            </div>
+
+            <div class="card card-two">
+              <div class="card-user-info">
+                <img src="img/account_circle_FILL0_wght400_GRAD0_opsz24.png" alt="" />
+                <h2>Comienza Cobra el Beca Progresar</h2>
+              </div>
+              <img class="card-img" src="img/beca.png" alt="" />
+              <p>Se comienza a cobrar el 23/05!🤩</p>
+            </div>
+
+            <div class="card card-two">
+              <div class="card-user-info">
+                <img src="img/account_circle_FILL0_wght400_GRAD0_opsz24.png" alt="" />
+                <h2>Comienza Cobra el Beca beca Cuidad</h2>
+              </div>
+              <img class="card-img" src="img/becacuidad.png" alt="" />
+              <p>Se comienza a cobrar el 30/08!🤩</p>
+            </div>
+
+            <br> <br> <br> <br> <br>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
